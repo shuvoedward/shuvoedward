@@ -1,8 +1,11 @@
-- 👋 Hi, I’m Cornelius.
-- 👀 I’m interested in programming ...
-- 🌱 I’m currently learning android developing ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+👋 Hi, I’m Cornelius.
+👀 I’m interested in web development and backend engineering.
+🌱 Currently learning JavaScript, solving LeetCode problems, and mastering backend development.
+🎯 Aspiring to become a Software Development Engineer.
+💞️ Looking to collaborate on web apps, backend systems, and algorithm challenges
+📫 Reach me through GitHub.
+
+
 
 <!---
 shuvoedward/shuvoedward is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
