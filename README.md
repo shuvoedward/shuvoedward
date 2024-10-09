@@ -1,9 +1,9 @@
-👋 Hi, I’m Cornelius.
-👀 I’m interested in web development and backend engineering.
-🌱 Currently learning JavaScript, solving LeetCode problems, and mastering backend development.
-🎯 Aspiring to become a Software Development Engineer.
-💞️ Looking to collaborate on web apps, backend systems, and algorithm challenges
-📫 Reach me through GitHub.
+👋 Hi, I’m Cornelius. <br>
+👀 I’m interested in web development and backend engineering.<br>
+🌱 Currently learning JavaScript, solving LeetCode problems, and mastering backend development.<br>
+🎯 Aspiring to become a Software Development Engineer.<br>
+💞️ Looking to collaborate on web apps, backend systems, and algorithm challenges<br>
+📫 Reach me through GitHub.<br>
 
 
 
