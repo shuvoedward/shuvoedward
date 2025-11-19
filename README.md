@@ -1,16 +1,16 @@
-# Hi, I'm Cornelius Edward (shuvoedward) 👋
+# Hi, I'm Cornelius Edward (shuvoedward) 
 
 Aspiring Backend Developer | Golang Enthusiast | Problem Solver
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 I'm currently learning backend development with Golang, focusing on algorithms, data structures, and practical coding challenges (LeetCode). Though I haven't landed my first software engineering job yet, I'm passionate about building things, sharpening my skills, and growing every day.
 
 ---
 
-## 🛠️ What I'm Working On
+## What I'm Working On
 
 - **Golang** for backend systems and server-side applications
 - **Algorithms & Data Structures**: Improving efficiency, mastering coding fundamentals
@@ -18,7 +18,7 @@ I'm currently learning backend development with Golang, focusing on algorithms, 
 
 ---
 
-## 🌟 Featured Projects
+## Featured Projects
 
 - [http_server_go](https://github.com/shuvoedward/http_server_go): Lightweight HTTP server to learn the essentials of serving web content with Go.
 - [Greenlight](https://github.com/shuvoedward/Greenlight): Backend web app project, exploring authentication, routing, and more.
@@ -27,7 +27,7 @@ I'm currently learning backend development with Golang, focusing on algorithms, 
 
 ---
 
-## 🚀 Goals
+## Goals
 
 - Land my first software engineering role
 - Master backend development with Go
@@ -35,7 +35,7 @@ I'm currently learning backend development with Golang, focusing on algorithms, 
 
 ---
 
-## 🤝 Connect with Me
+## Connect with Me
 
 - [LinkedIn](https://www.linkedin.com/in/cornelius-edward-1b5b03214/) _(Profile still in progress!)_
 
