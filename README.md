@@ -19,11 +19,11 @@ I'm currently learning backend development with Golang, focusing on algorithms, 
 ---
 
 ## Featured Projects
-
+- [Bible Note API](https://github.com/shuvoedward/Bible_project_2): Bible note taking API.
 - [http_server_go](https://github.com/shuvoedward/http_server_go): Lightweight HTTP server to learn the essentials of serving web content with Go.
 - [Greenlight](https://github.com/shuvoedward/Greenlight): Backend web app project, exploring authentication, routing, and more.
 - [hashMap](https://github.com/shuvoedward/hashMap): Custom implementation of a hash map, diving deep into data structure internals.
-- [neetCode_problem_solving](https://github.com/shuvoedward/neetCode_problem_solving): Solutions to popular algorithm problems, inspired by the NeetCode roadmap.
+
 
 ---
 
