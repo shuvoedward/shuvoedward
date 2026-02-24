@@ -1,51 +1,68 @@
-# Hi, I'm Cornelius Edward (shuvoedward) 
+# Cornelius Edward
 
-Aspiring Backend Developer | Golang Enthusiast | Problem Solver
+Fullstack Software Engineer with a backend focus. I build production-ready systems in Go — REST APIs, caching layers, job schedulers, search, and cloud deployment. Frontend experience in React and JavaScript.
 
----
-
-## About Me
-
-I'm currently learning backend development with Golang, focusing on algorithms, data structures, and practical coding challenges (LeetCode). Though I haven't landed my first software engineering job yet, I'm passionate about building things, sharpening my skills, and growing every day.
+Currently based in Queens, NY. Actively looking for backend or fullstack engineering roles.
 
 ---
 
-## What I'm Working On
+## What I'm Building
 
-- **Golang** for backend systems and server-side applications
-- **Algorithms & Data Structures**: Improving efficiency, mastering coding fundamentals
-- **LeetCode**: Practicing real-world problem solving
+### [Bible Notes API](https://github.com/shuvoedward/Bible_project_2) — Live at [biblenotesapi.dev/v1/healthcheck](https://biblenotesapi.dev/v1/healthcheck)
 
----
+A production API I designed and built end-to-end — from schema design and user flows to deployment on AWS EC2. Not a tutorial follow-along. I made the product decisions, hit the real problems, and figured them out.
 
-## Featured Projects
-- [Bible Note API](https://github.com/shuvoedward/Bible_project_2): Bible note taking API.
-- [http_server_go](https://github.com/shuvoedward/http_server_go): Lightweight HTTP server to learn the essentials of serving web content with Go.
-- [Greenlight](https://github.com/shuvoedward/Greenlight): Backend web app project, exploring authentication, routing, and more.
-- [hashMap](https://github.com/shuvoedward/hashMap): Custom implementation of a hash map, diving deep into data structure internals.
+**Stack:** Go, PostgreSQL, Redis, Docker, AWS EC2/S3, Caddy
 
+**What's under the hood:**
+- **Rate limiting** — sliding window algorithm using Redis + a Lua script for atomic enforcement across multiple tiers
+- **Concurrency safety** — singleton pattern with [Otter](https://github.com/maypok86/otter) to handle concurrent requests hitting the same Bible passage without redundant DB calls
+- **Full-text search** — PostgreSQL `tsvector`/`tsquery` for keyword and partial-phrase verse search
+- **Autocomplete** — in-memory Go map for instant book lookup without touching the database
+- **Image processing** — resizes oversized uploads before storing to AWS S3
+- **Job scheduler** — custom-built with goroutines, worker pool, and a min-heap priority queue for retries; currently drives email delivery
+- **Auth** — token-based authentication with Redis caching to cut redundant DB reads
+- **Testing** — writing integration and unit tests; previously load tested with k6 (51k req/sec on verse retrieval)
 
----
-
-## Goals
-
-- Land my first software engineering role
-- Master backend development with Go
-- Contribute to open-source and collaborate with others
+> Performance numbers, architecture notes, and design decisions are documented in [DESIGN.md](https://github.com/shuvoedward/Bible_project_2/blob/main/DESIGN.md) and [docs/](https://github.com/shuvoedward/Bible_project_2/tree/main/docs).
 
 ---
 
-## Connect with Me
+### [Flashcard Web App](https://github.com/shuvoedward/Flashcard)
 
-- [LinkedIn](https://www.linkedin.com/in/cornelius-edward-1b5b03214/) _(Profile still in progress!)_
+**Stack:** React, JavaScript
+
+A responsive flashcard interface built with component-based architecture and state management. Covers navigation, dynamic rendering, and multi-state card logic.
 
 ---
 
-_Always open to collaboration, learning, and feedback. If you have opportunities, advice, or just want to connect, feel free to reach out!_
+## Open Source
 
+Currently studying the [k6](https://github.com/grafana/k6) and [Gitea](https://github.com/go-gitea/gitea) codebases — reading production-level Go at scale, understanding architecture and contributing patterns. Working toward first contributions.
 
+---
 
-<!---
-shuvoedward/shuvoedward is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## Skills
+
+| | |
+|---|---|
+| **Languages** | Go, SQL, JavaScript |
+| **Backend** | REST APIs, rate limiting, background jobs, job scheduling, image processing |
+| **Databases** | PostgreSQL (full-text search, indexing, query optimization), Redis |
+| **Frontend** | React, ES6 |
+| **Cloud & DevOps** | AWS EC2, S3, Docker, Linux, Caddy |
+| **Tools** | Git, Postman, k6, Otter |
+| **Concepts** | Concurrency patterns, data structures & algorithms, transactions, secure coding |
+
+---
+
+## Background
+
+Self-taught, with CS coursework at BMCC (2022–2024) covering Data Structures, Algorithms, Databases, and Operating Systems. I learn by building real things and reasoning from first principles — not following tutorials.
+
+---
+
+## Get in Touch
+
+- Email: shuvoedward@gmail.com
+- LinkedIn: [linkedin.com/in/cornelius-edward-1b5b03214](https://www.linkedin.com/in/cornelius-edward-1b5b03214/)
